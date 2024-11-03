@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <title>ChaosClock</title>
+</head>
+<body background="bg.jpeg">
+    
+
+    <div class="container">
+     <h1>Alarm Clock</h1>
+     
+        <label for="alarmTime">Set Alarm Time:</label>
+        <input type="text" id="alarmTime" placeholder="Select Time">
+        <button id="setAlarm" class="bottom-center">Set Alarm</button>
+        <button id="stopAlarm" class="bottom-center" style="display: none;">Stop Alarm</button>
+        <button id="resetAlarm" class="bottom-center" style="display: none;">Reset</button>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
